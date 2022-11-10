@@ -11,7 +11,7 @@ def get_data_from_branch(domain):
   
 src = get_data_from_branch("enterprise-attack")
 
-#Inicio de la query.
+#Inicio de la query. Se obtiene toda la información disponible de un TTP. En este caso la T1027.005
 t1134 = src.query([
     Filter("external_references.external_id", "=", "T1027.005"),
     Filter("type", "=", "attack-pattern")
