@@ -44,13 +44,13 @@ techniques = get_techniques_or_subtechniques(src, "techniques")
 #print(subtechniques)
 #print(techniques[1].x_mitre_data_sources)
 
-print("Name",",", "ID",",", "DataSources",",","Total")
+print("Name",",", "ID",",", "DataSources",",","Total",sep="")
 for x in techniques:
 	#Creado para que no entre en aquellas TTPs cuyo ID ha sido cambiado y no tienen x.mitre_data_sources (y casca). Estas TTPs iran al except y se desecharán
 	try: 	
 		if(x.x_mitre_data_sources is not None):
 			#Sacamos por pantalla Nombre, ID, Data Sources y numero de data sources
-			print(x.name,",",x.external_references[0].external_id,",",x.x_mitre_data_sources,",",len(x.x_mitre_data_sources))
+			print(x.name,",",x.external_references[0].external_id,",",x.x_mitre_data_sources,",",len(x.x_mitre_data_sources),sep="")
 		
 	except: None
 	
@@ -60,7 +60,7 @@ for x in subtechniques:
 	try: 	
 		if(x.x_mitre_data_sources is not None):
 			#Sacamos por pantalla Nombre, ID, Data Sources y numero de data sources
-			print(x.name,",",x.external_references[0].external_id,",",x.x_mitre_data_sources,",",len(x.x_mitre_data_sources))
+			print(x.name,",",x.external_references[0].external_id,",",x.x_mitre_data_sources,",",len(x.x_mitre_data_sources),sep="")
 		
 	except: None
 
