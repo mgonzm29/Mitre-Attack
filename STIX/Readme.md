@@ -1,13 +1,15 @@
 # Queries with STIX
-## Mitre-tecnicas
-Es necesario tener instalado Stixx y Taxii2Client, si lo que desea es realizar consultas contra la base de datos de Mitre.
-
-## Mitre-tacticas
-https://github.com/oasis-open/cti-python-stix2
-
-### Taxi2Client
+## mitre_tacticas.py
+Se obtendran todas las tácticas que componen la matriz de MITRE junto con su información adicional
 ```powershell
-pip install taxxi2-client
+python mitre_tecnicas.py > output.txt
 ```
+
+## mitre_tecnicas.py
+Se obtendran todas las técnicas y subtécnicas que componen la matriz de MITRE junto con su información adicional
+```powershell
+python mitre_tacticas.py > output.txt
+```
+
 
 
