@@ -5,6 +5,7 @@ Es necesario tener instalado Stixx y Taxii2Client, si lo que desea es realizar c
 https://github.com/oasis-open/cti-python-stix2
 
 ### Taxi2Client
+pip install taxxi2-client
 
 
 
