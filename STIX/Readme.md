@@ -18,9 +18,10 @@ python mitre_tacticas.py > output.txt
 ```
 El output obtenido, será el siguiente:
 
-Nombre TTP, ID TTP, [Data source:Data component,...], Total de Data sources:
+Nombre TTP, ID TTP, [Data source:Data component,...], Total de Data sources
+```powershell
 Screen Capture,T1113,['Command: Command Execution', 'Process: OS API Execution'],2
-
+```
 
 
 
