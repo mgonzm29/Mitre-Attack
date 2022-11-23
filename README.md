@@ -13,4 +13,9 @@ pip install taxxi2-client
 ```
 
 
+#### COMO HACER QUERIES
+
+https://github.com/mitre-attack/attack-stix-data/blob/master/USAGE.md#accessing-attck-data-in-python
+
+
 
