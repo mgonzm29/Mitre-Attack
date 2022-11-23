@@ -13,6 +13,7 @@ https://attackevals.mitre-engenuity.org/
 
 3. Se ejecutará el archivo EDR.py, introduciedno el archivo .json en el path del propio proyecto
 4. Una vez realizado esto, se ejecutará el programa y se obtendrá el output por pantalla
+\n
 ![image](https://user-images.githubusercontent.com/36732743/203524651-eb5b9f24-b2ea-4b2e-9b20-67683884ad07.png)
 
 
