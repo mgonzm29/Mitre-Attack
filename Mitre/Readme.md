@@ -1,4 +1,4 @@
-# Mitre
+# Mitre. Obtención de Data Components
 
 Una vez que se tengan las fuentes de un determinado cliente categorizadas como Data Sources de Mitre, se podrá utilizar el siguiente script para obtener automaticamente los Data Components de cada Data Source.
 Para mas información sobre Data Sources: https://attack.mitre.org/datasources/
