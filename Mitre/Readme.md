@@ -14,7 +14,7 @@ Contiene toda la infromacion de los Data Sources
 
 ### 4. Output
 
-Data Source, Total number of Data Components
+Data Source, Total number of Data Components.
 Data Component[0],
 Data Component[1],
 Data Component[n]
