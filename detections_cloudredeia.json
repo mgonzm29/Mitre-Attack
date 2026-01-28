@@ -1,0 +1,4950 @@
+{
+	"name": "Detections CloudRedeia",
+	"versions": {
+		"attack": "18",
+		"navigator": "5.3.0",
+		"layer": "4.5"
+	},
+	"domain": "enterprise-attack",
+	"description": "description",
+	"filters": {
+		"platforms": [
+			"IaaS",
+			"Azure AD",
+			"Containers",
+			"Windows",
+			"Linux",
+			"macOS",
+			"Network Devices",
+			"ESXi",
+			"Office Suite",
+			"SaaS",
+			"Identity Provider"
+		]
+	},
+	"sorting": 3,
+	"layout": {
+		"layout": "flat",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": true,
+		"countUnscored": false,
+		"expandedSubtechniques": "none"
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1001.003",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.001",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.002",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.003",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.006",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1008",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1020.001",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021.001",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1047",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.002",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.002",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.002",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.005",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.005",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.005",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1059.001",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.004",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.004",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071",
+			"tactic": "command-and-control",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.001",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.004",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "persistence",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "privilege-escalation",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.004",
+			"tactic": "initial-access",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087.002",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1095",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098",
+			"tactic": "privilege-escalation",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098.001",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098.001",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098.003",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1098.003",
+			"tactic": "privilege-escalation",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1105",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1110.001",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1110.003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114.003",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1133",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1140",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1197",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1201",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1203",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1204.001",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1207",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1210",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1212",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1216",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.005",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1218.011",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1219",
+			"tactic": "command-and-control",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1222.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1490",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1491.001",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1496",
+			"tactic": "impact",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1498",
+			"tactic": "impact",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.003",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1525",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1526",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1530",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1531",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1537",
+			"tactic": "exfiltration",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543.003",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548.003",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1548.003",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.001",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.003",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.003",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558.003",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1560.001",
+			"tactic": "collection",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1562.001",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.004",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.007",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "5"
+				},
+				{
+					"name": "Visibility score",
+					"value": "4"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.008",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1563.002",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565.001",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567",
+			"tactic": "exfiltration",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "3"
+				},
+				{
+					"name": "Visibility score",
+					"value": "2"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1569.002",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1570",
+			"tactic": "lateral-movement",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "privilege-escalation",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1578",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1578.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1584.002",
+			"tactic": "resource-development",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1588.002",
+			"tactic": "resource-development",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1589.001",
+			"tactic": "reconnaissance",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1595",
+			"tactic": "reconnaissance",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1595.002",
+			"tactic": "reconnaissance",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1609",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1613",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1615",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [
+				{
+					"name": "Detection score",
+					"value": "1"
+				},
+				{
+					"name": "Visibility score",
+					"value": "1"
+				},
+				{
+					"name": "Detection source",
+					"value": "Splunk"
+				},
+				{
+					"name": "Visibility source",
+					"value": "MITRE Engenuity"
+				},
+				{
+					"name": "Applicable to",
+					"value": "all"
+				}
+			],
+			"links": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ffffffff",
+			"#1abc03ff"
+		],
+		"minValue": 0,
+		"maxValue": 5
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false,
+	"selectVisibleTechniques": false
+}
